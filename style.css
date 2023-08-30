@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+    
+
+.logo-item{
+    margin:40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+    
+}
+
+.logo-item .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 50%;
+
+}
+
+.logo-item ul {
+    list-style: none;
+    display: flex;
+    text-align: right;
+    gap: 20px;
+}
+
+.header-section{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.header-left{
+    width: 40%;
+    margin: 200px 0;
+    flex-basis: 50%;
+}
+
+.header-left h2{
+    font-size: 50px;
+    width: 70%;
+}
+
+.header-left p{
+    font-size: 17px;
+    line-height: 1.5;
+    width: 70%;
+    margin: 10px 0;
+    
+}
+
+.header-left input{
+    padding: 15px 30px;
+}
+
+.header-left button{
+    padding: 15px 30px;
+    border: 1px solid black;
+    margin-left: 5px;
+    background-color: rgb(248, 127, 79);
+}
+
+.img-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px 0;
+    width: 70%;
+    align-items: center;
+    grid-gap: 10px;
+    
+    
+    
+}
+
+.header-section .header-right{
+    width: 150px;
+   flex-basis: 50%;
+   margin-left:200px ;
+}
+
+/* end of header */
+
+
+.features{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.features h2{
+    font-size: 30px;
+}
+
+.features p{
+    margin: auto;
+    font-size: 20px;
+    width: 800px;
+}
+
+.unlimited-item{
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    display: flex;
+    
+}
+
+.unlimited-item .item{
+    display: flex;
+   margin: 30px 0;
+   width: 50%;
+   margin-left: 120px;
+}
+
+.unlimited-item .item img{
+    width: 35px;
+    
+}
+
+.unlimited-item .item .brand h2{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.unlimited-item .item .brand p{
+    text-align: left;
+    justify-content: center;
+    width: 250px;
+    padding-left: 10px;
+}
+
+/* end of unlimited */
+
+
+
+.talant{
+    display: flex;
+    width: 80%;
+    margin:50px auto;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.talant-left{
+    margin: auto;
+    flex-basis: 50%;
+}
+
+.talant-right{
+    width: 600px;
+}
+
+.talant-right h2{
+    font-size: 30px;
+    margin-top:100px ;
+    width: 400px;
+}
+
+.talant-right p{
+    width: 400px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.talant-right ul{
+    list-style: none;
+       
+}
+
+.talant-right ul li i{
+    color: green;
+}
+
+
+.talant-right button{
+    margin: 20px 0;
+    border: none;
+    box-shadow: 5px 10px 10px gray;
+    border-radius: 5px;
+}
+
+/* end of talant */
+
+.knowledge{
+    display: flex;
+    width: 80%;
+    margin:auto;
+    gap: 70px;
+    justify-content: center;
+}
+
+.knowledge-left{
+    margin: 90px;
+}
+
+.knowledge-left h2{
+    font-size: 30px;
+    margin-top:100px ;
+    width: 400px;
+}
+
+.knowledge-left p{
+    width: 400px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.knowledge-left button{
+    margin: 20px 0;
+    border: none;
+    color:#F94962;
+}
+
+.knowledge-right{
+    margin: 50px;
+    flex-basis: 50%;
+}
+
+/* end of knowledge */
+
+.feedback{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.feedback h2{
+    padding: 10px 500px;
+}
+
+.feedback p{
+    padding: 10px 500px;
+    line-height: 1.5;
+    
+}
+
+.feedback img{
+    padding: 100px 0;
+}
+
+   /* end of feedback */
+
+.meet{
+    width: 80%;
+    margin: auto;
+}
+
+.meet .let{
+    text-align: center;
+}
+
+.meet .let h2{
+    font-size: 25px;
+}
+
+.meet .let p{
+    padding: 10px 500px;
+    line-height: 1.5;
+}
+
+.meet .connect{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+    
+}
+
+.meet .connect .idea {
+    display: flex;
+}
+
+.meet .connect .idea idea-1{
+    margin-left: 15px;
+}
+
+.meet .connect .idea .idea-1 h3{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.meet .connect .idea .idea-1 p{
+    width: 400px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+/* end of meet */
+
+.team{
+    width: 80%;
+    margin: auto;
+}
+
+.hard{
+    width: 90%;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.hard h2{
+    padding: 10px 150px;
+    margin-left: 150px;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.hard p{
+    padding: 10px 150px;
+    margin-left: 320px ;
+    width: 900px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.team img{
+    margin-left: 240px;
+}
+
+/* end of team */
+
+.feel {
+    background-color:#183656;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-basis: 50%;
+    border-radius: 15px;
+    padding: 40px;
+    
+}
+
+.feel h2{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #F94962;
+    font-weight: 100;
+    width: 400px;
+}
+
+.feel button{
+    margin-top: 40px ;
+    margin-left: 400px;
+    padding: 10px 25px;
+
+}
+.button-feel{
+    background-image: url('image/bi.png');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+ /* end of feel */
+
+.footer-section{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.footer-section div{
+    padding: 30px 0;
+    margin-left: 50px;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 50%;
+}
+
+.logos h2{
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.logos h4{
+    margin-left: 50px;
+    line-height: 2;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.footer-section h3{
+    font-weight: 200;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.footer-section h4{
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 2.5;
+    padding-left: 25px 0;
+    margin-left: 25px ;
+    
+}
